@@ -1,0 +1,33 @@
+body{
+    font-size: 35px;
+    color: white;
+    background: #191c32;
+    text-align: center;
+}
+div {
+    border:2px solid white;
+   background-image: radial-gradient(rgb(13, 43, 236),rgb(80, 146, 222));
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+}
+.form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    height:100px;
+    width:12%;
+    margin: auto;
+    font-size: 80px;
+}
+.button{
+    margin: auto;
+    height: 55px;
+    width: 25%;
+    cursor: pointer;
+}
